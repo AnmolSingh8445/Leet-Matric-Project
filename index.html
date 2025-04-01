@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-container">
+        <h1>LEET~MATRIC</h1>
+        <div class="input-container">
+            <input type="text" placeholder="Enter Leetcode Username" class="input">
+            <button class="button">Search</button>
+        </div>
+        <div class="stats-container">
+            <div class="progress">
+                <div class="progress-item">
+                    <div class="easy-prgress">
+                        <span id="easy-level"></span>
+                        Easy
+                    </div>
+                </div>
+                <div class="progress-item">
+                    <div class="medium-prgress">
+                        <span id="medium-level"></span>
+                        Medium
+                    </div>
+                </div>
+                <div class="progress-item">
+                    <div class="hard-prgress">
+                        <span id="hard-level"></span>
+                        Hard
+                    </div>
+                </div>
+            </div>
+            <div class="stats-card">
+                <div class="stats-header">
+                    <h2>Stats Overview</h2>
+                </div>
+                <div class="stats-details">
+                    <div class="stat-item">
+                        <span class="stat-label">Total Solved:</span>
+                        <span id="total-solved" class="stat-value">0</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Ranking:</span>
+                        <span id="ranking" class="stat-value">N/A</span>
+                    </div>
+                    <div class="stat-item progress-bar-container">
+                        <span class="stat-label">Progress:</span>
+                        <div class="progress-bar">
+                            <div id="progress-bar-fill" class="progress-bar-fill"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
